@@ -12,8 +12,8 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 let songs = [
   {
     songName: "Alag Aasmaan",
-    filePath: "songs/1.mp3",
-    coverPath: "covers/1.jpg",
+    filePath: "1.mp3",
+    coverPath: "1.jpg",
   },
   {
     songName: "Chaand Baaliyan",
