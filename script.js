@@ -12,12 +12,12 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 let songs = [
   {
     songName: "Alag Aasmaan",
-    filePath: "1.mp3",
+    filePath: "songs/1.mp3",
     coverPath: "1.jpg",
   },
   {
     songName: "Chaand Baaliyan",
-    filePath: "2.mp3",
+    filePath: "songs/2.mp3",
     coverPath: "2.jpg",
   },
   {
@@ -27,42 +27,42 @@ let songs = [
   },
   {
     songName: "Kho Gaye Hum Kaha",
-    filePath: "4.mp3",
+    filePath: "songs4.mp3",
     coverPath: "4.jpg",
   },
   {
     songName: "Lovely",
-    filePath: "5.mp3",
+    filePath: "songs/5.mp3",
     coverPath: "5.jpg",
   },
   {
     songName: "Maybe My Soulmate Died",
-    filePath: "6.mp3",
+    filePath: "songs/6.mp3",
     coverPath: "6.jpg",
   },
   {
     songName: "Mitti Di Khushboo",
-    filePath: "7.mp3",
+    filePath: "songs/7.mp3",
     coverPath: "7.jpg",
   },
   {
     songName: "Pani Da Rang",
-    filePath: "8.mp3",
+    filePath: "songs/8.mp3",
     coverPath: "8.jpg",
   },
   {
     songName: "Riha",
-    filePath: "9.mp3",
+    filePath: "songs/9.mp3",
     coverPath: "9.jpg",
   },
   {
     songName: "Runaway",
-    filePath: "10.mp3",
+    filePath: "songs/10.mp3",
     coverPath: "10.jpg",
   },
   {
     songName: "Saadi Galli Aaja",
-    filePath: "11.mp3",
+    filePath: "songs/11.mp3",
     coverPath: "11.jpg",
   },
 ];
