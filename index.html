@@ -11,9 +11,18 @@
     <nav>
       <ul>
         <li class="brand"><img src="logo.gif" alt="Rooh" /> Rooh</li>
-        <li><a style="color: rgb(0, 255, 255); text-decoration: wavy;font-size: x-large; font-weight: bolder;">Home</li>
         <li>
-          <a style="color: rgb(0, 255, 255); text-decoration: wavy;font-size: x-large; font-weight: bolder;"href="about.html">About</a>
+          <a
+            style="color: rgb(0, 255, 255); text-decoration: wavy; font-size: x-large; font-weight: bolder;"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            style="color: rgb(0, 255, 255); text-decoration: wavy; font-size: x-large; font-weight: bolder;"
+            href="about.html"
+            >About</a
+          >
         </li>
       </ul>
     </nav>
@@ -22,108 +31,24 @@
       <div class="songList">
         <h1>FAVORITES</h1>
         <div class="songItemContainer">
+          <!-- Dynamic Song List -->
           <div class="songItem">
-            <img alt="1" />
-            <span class="songName">We Rollin</span>
-            <span class="songlistplay"
-              ><span class="timestamp">03:32<i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+            <img src="placeholder.jpg" alt="Cover" />
+            <span class="songName">Song Name</span>
+            <span class="songlistplay">
+              <span class="timestamp">03:32
+                <i id="0" class="far songItemPlay fa-play-circle"></i>
+              </span>
+            </span>
           </div>
-          <div class="songItem">
-            <img alt="1" />
-            <span class="songName">Let me Love You</span>
-            <span class="songlistplay"
-              ><span class="timestamp"
-                >01:43
-                <i id="1" class="far songItemPlay fa-play-circle"></i> </span
-            ></span>
-          </div>
-          <div class="songItem">
-            <img alt="1" />
-            <span class="songName">Let me Love You</span>
-            <span class="songlistplay"
-              ><span class="timestamp"
-                >04:21
-                <i id="2" class="far songItemPlay fa-play-circle"></i> </span
-            ></span>
-          </div>
-          <div class="songItem">
-            <img alt="1" />
-            <span class="songName">Let me Love You</span>
-            <span class="songlistplay"
-              ><span class="timestamp"
-                >03:33
-                <i id="3" class="far songItemPlay fa-play-circle"></i> </span
-            ></span>
-          </div>
-          <div class="songItem">
-            <img alt="1" />
-            <span class="songName">Let me Love You</span>
-            <span class="songlistplay"
-              ><span class="timestamp"
-                >03:43
-                <i id="4" class="far songItemPlay fa-play-circle"></i> </span
-            ></span>
-          </div>
-          <div class="songItem">
-            <img alt="1" />
-            <span class="songName">Let me Love You</span>
-            <span class="songlistplay"
-              ><span class="timestamp"
-                >01:54
-                <i id="5" class="far songItemPlay fa-play-circle"></i> </span
-            ></span>
-          </div>
-          <div class="songItem">
-            <img alt="1" />
-            <span class="songName">Let me Love You</span>
-            <span class="songlistplay"
-              ><span class="timestamp"
-                >04:07
-                <i id="6" class="far songItemPlay fa-play-circle"></i> </span
-            ></span>
-          </div>
-          <div class="songItem">
-            <img alt="1" />
-            <span class="songName">Let me Love You</span>
-            <span class="songlistplay"
-              ><span class="timestamp"
-                >03:59
-                <i id="7" class="far songItemPlay fa-play-circle"></i> </span
-            ></span>
-          </div>
-          <div class="songItem">
-            <img alt="1" />
-            <span class="songName">Let me Love You</span>
-            <span class="songlistplay"
-              ><span class="timestamp"
-                >04:47
-                <i id="8" class="far songItemPlay fa-play-circle"></i> </span
-            ></span>
-          </div>
-          <div class="songItem">
-            <img alt="1" />
-            <span class="songName">Let me Love You</span>
-            <span class="songlistplay"
-              ><span class="timestamp"
-                >04:08
-                <i id="9" class="far songItemPlay fa-play-circle"></i> </span
-            ></span>
-          </div>
-          <div class="songItem">
-            <img alt="1" />
-            <span class="songName">Let me Love You</span>
-            <span class="songlistplay"
-              ><span class="timestamp"
-                >04:13
-                <i id="10" class="far songItemPlay fa-play-circle"></i> </span
-            ></span>
-          </div>
+          <!-- Add more song items dynamically -->
         </div>
       </div>
       <div class="songBanner"></div>
     </div>
 
     <div class="bottom">
+      <!-- Progress Bar -->
       <input
         type="range"
         name="range"
@@ -133,16 +58,18 @@
         max="100"
       />
       <div class="icons">
-        <!-- fontawesome icons -->
+        <!-- FontAwesome Controls -->
         <i class="fas fa-3x fa-step-backward" id="previous"></i>
         <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
         <i class="fas fa-3x fa-step-forward" id="next"></i>
       </div>
       <div class="songInfo">
-        <img src="circle playing.gif" width="42px" alt="" id="gif" />
-        <span id="masterSongName">UNKNOW TRACK</span>
+        <!-- Playing GIF and Current Song Info -->
+        <img src="circle playing.gif" width="42px" alt="Playing GIF" id="gif" />
+        <span id="masterSongName">UNKNOWN TRACK</span>
       </div>
     </div>
+
     <script src="script.js"></script>
     <script
       src="https://kit.fontawesome.com/26504e4a1f.js"
